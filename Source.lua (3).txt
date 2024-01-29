@@ -3452,7 +3452,7 @@ TextButton.TextSize = 20.000
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = TextButton
 
-TextButton.MouseButton1Click(function()
+TextButton.MouseButton1Click:Connect(function()
 if Debounce then return end
 	if Hidden then
 		Hidden = false
