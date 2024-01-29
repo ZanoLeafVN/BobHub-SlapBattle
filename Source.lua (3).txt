@@ -3435,7 +3435,7 @@ TextButton.Text = "Toggle UI"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 20.000
 
-TextButton.MouseButton1Click(function()
+TextButton.MouseButton1Click:Connect(function()
 if Debounce then return end
 	if Hidden then
 		Hidden = false
